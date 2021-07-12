@@ -12,7 +12,7 @@ import { BodyClass } from '@helpers/BodyClass'
 export const getStaticProps: GetStaticProps = async () => {
   const posts = await getAllPosts({ limit: 3 })
   const settings = await getAllSettings()
-//fdfdf
+
   return {
     props: {
       settings,
